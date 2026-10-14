@@ -1,12 +1,12 @@
 Name:		python-rackspace-auth-openstack
 Version:	1.3
-Release:	3
+Release:	4
 Source0:	https://files.pythonhosted.org/packages/source/r/rackspace-auth-openstack/rackspace-auth-openstack-%{version}.tar.gz
 Summary:	Rackspace Auth Plugin for OpenStack Clients.
 URL:		https://pypi.org/project/rackspace-auth-openstack/
 License:	Apache License, Version 2.0
 Group:		Development/Python
-BuildRequires:	python
+BuildRequires:	pkgconfig(python3)
 BuildSystem:	python
 BuildArch:	noarch
 
